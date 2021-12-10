@@ -2,11 +2,19 @@
 .banner {
   background: #5000ca22;
   padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  /* rykker ned når der ikke er mere plads */
+  flex-wrap: wrap;
 }
 
 .banner ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  gap: 20px;
+  /* fortæller hvor den skal placeres */
+  /* text-align: right; */
 }
 
 /* burgermenu */
